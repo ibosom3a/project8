@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,100&family=Alegreya:ital@0;1&family=Cairo:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}   
+body{
+    height: 1800px;
+    font-family: 'Cairo', sans-serif;
+    background-color:ghostwhite;
+    
+}
+ul{
+    background-color:rgb(103, 100, 95);
+    text-align: center;
+    padding-top: 20px;
+    
+}
+ul li{
+    display: inline-block;
+    margin-left: 100px;
+    margin-bottom: 1rem;
+    font-size:medium;
+}
+ul li :hover{
+    background-color: brown;
+}
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+.img{
+
+    height: 400px;
+    background-image: url('../img/pizza.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+}
+.img2{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-image: url(../img/WOODBURNINGOVEN.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+.ibo {
+    padding-top: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.ibo h1{
+    color: black;
+    font-size: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.yoyo{
+    display: flex;
+    padding-top: 10px;
+
+}
+.yoyo .lolo {
+    background-color: white;
+    text-align: center;
+    width: 30% ;
+    margin: auto;
+    padding: 15px;
+    height: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.yoyo .lolo:hover {
+    box-shadow: 3px 3px 10px rgb(243, 150, 11);
+    transform: translatex(3px);
+    background-color: antiquewhite;
+}
+.yoyo .lolo i{
+    font-size: 25px;
+}
+.ff{
+    font-size: 25px;
+}
